@@ -6,5 +6,3 @@ console.log("student.getName(): "+student.getName());
 console.log("student.getAge(): "+student.getAge());
 console.log("student.getMarks(): "+student.getMarks());
 console.log("student.loc: "+student.loc);
-
-
