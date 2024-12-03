@@ -37,3 +37,12 @@ fs.rename("demo1.txt", 'demo2.txt', (err)=>{
         console.log("successfully renamed")
     }
 })
+
+// How to delete file
+fs.unlink('demo2.txt', (result)=>{
+    if(result){
+        console.log("successfully deleted");
+    }else{
+        console.log("successfully not deleted")
+    }
+})
