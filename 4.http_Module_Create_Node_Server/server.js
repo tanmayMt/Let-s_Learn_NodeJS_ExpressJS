@@ -6,7 +6,8 @@ const hostname = '127.0.0.1'  //127.0.0.1 <- This address is  localhost
 
 
 const myServer = http.createServer((req,res)=>{
-    res.end("Hello I am your firt server");
+    // res.end("Hello I am your firt server");
+    res.end("<h1>Hello I am your firt server</h1>");
 })
 
 myServer.listen(port, hostname, ()=>{
