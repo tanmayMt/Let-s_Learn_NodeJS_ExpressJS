@@ -20,10 +20,20 @@ fs.appendFile("demo1.txt", ". I am 30 years old", (err)=>{
     }
 })
 
+// read file
 fs.readFile("demo1.txt", 'utf-8', (err, data)=>{   //utf encoding system
     if(err){
         console.log(err);
     }else{
         console.log(data)
+    }
+})
+
+// How to rename file
+fs.rename("demo1.txt", 'demo2.txt', (err)=>{
+    if(err){
+        console.log(err);
+    }else{
+        console.log("successfully renamed")
     }
 })
