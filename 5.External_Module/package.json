@@ -14,6 +14,7 @@
   "author": "Tanmay Samanta",
   "license": "ISC",
   "dependencies": {
+    "movies-names": "^1.1.1",
     "random-fruits-name": "^1.10.1"
   }
 }
