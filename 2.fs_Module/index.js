@@ -19,3 +19,11 @@ fs.appendFile("demo1.txt", ". I am 30 years old", (err)=>{
         console.log("Updated Successful")
     }
 })
+
+fs.readFile("demo1.txt", 'utf-8', (err, data)=>{   //utf encoding system
+    if(err){
+        console.log(err);
+    }else{
+        console.log(data)
+    }
+})
