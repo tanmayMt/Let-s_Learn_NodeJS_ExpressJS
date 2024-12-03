@@ -11,3 +11,11 @@ fs.writeFile("demo1.txt", "My name is Rahul Das", (err)=>{
     }
 });
 
+// How to update file
+fs.appendFile("demo1.txt", ". I am 30 years old", (err)=>{
+    if(err){
+        console.log(err);
+    }else{
+        console.log("Updated Successful")
+    }
+})
