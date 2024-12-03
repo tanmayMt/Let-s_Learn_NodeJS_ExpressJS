@@ -11,6 +11,14 @@ fs.writeFile("demo1.txt", "My name is Rahul Das", (err)=>{
     }
 });
 
+// How to create and write file using synchronous method
+var result = fs.writeFileSync("demo4.txt", "My name is Avik Sen");
+    if(result){
+        console.log(result);
+    }else{
+        console.log("Successful fs.writeFileSync()")
+    }
+
 // How to update file
 fs.appendFile("demo1.txt", ". I am 30 years old", (err)=>{
     if(err){
@@ -39,10 +47,19 @@ fs.rename("demo1.txt", 'demo2.txt', (err)=>{
 })
 
 // How to delete file
-fs.unlink('demo2.txt', (result)=>{
+// fs.unlink('demo2.txt', (result)=>{
+//     if(result){
+//         console.log("successfully deleted");
+//     }else{
+//         console.log("successfully not deleted")
+//     }
+// })
+
+// How to check the existance
+fs.exists('demo2.txt', (result)=>{
     if(result){
-        console.log("successfully deleted");
+        console.log("File found");
     }else{
-        console.log("successfully not deleted")
+        console.log("File not found!")
     }
 })
