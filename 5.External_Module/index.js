@@ -16,8 +16,7 @@ console.log(getRandomFruitsName('bn')) // আপেল
 
 // movies-names <- External Module
 var moviesNames = require('movies-names');
-console.log(moviesNames.random())
-// moviesNames.all //returns all movies
-// moviesNames.random() //returns a random movie name
-//moviesName.random(2) //returns specified number of random movies
+//console.log(moviesNames.random()) //returns a random movie name
+//console.log(moviesNames.all) //returns all movies
+//moviesNames.random(2) //returns specified number of random movies
 // moviesNames.getmovieName('The Dark Knight') //returns specified movi
