@@ -1,0 +1,11 @@
+{
+  "name": "6.http_routing_nodemon_package",
+  "version": "1.0.0",
+  "description": "http routing and nodemon package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanmay Samanta",
+  "license": "ISC"
+}
