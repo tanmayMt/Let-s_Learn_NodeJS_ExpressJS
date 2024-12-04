@@ -3,6 +3,7 @@ const PORT = 3000;
 const hostName = "127.0.0.1";
 
 const server = http.createServer((req,res)=>{
+  console.log(req.url);
   res.end("Welcome to server");
 })
 
