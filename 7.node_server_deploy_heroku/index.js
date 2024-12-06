@@ -1,6 +1,8 @@
 const http = require("http");
 const fs = require("fs");
-const PORT = 3000;
+//const PORT = 3000;
+const PORT = process.env.PORT;  //'process.env' <- This is an object in Node.js that stores all environment variables available to the running process.
+                                //PORT <- This is a specific environment variable, often used to specify the port number on which the server should listen
 const hostName = "127.0.0.1";
 
 const server = http.createServer((req,res)=>{
