@@ -18,6 +18,9 @@ router.get("/register", (req, res) => {
 router.get("/login", (req, res) => {
   //res.send("<h1>I am a get request at login route</h1>");
   res.sendFile("G:\\4.Web Development\\Node\\8.express\\views\\login.html");
+  res.cookie("name", "rabeya");
+  res.cookie("age", "30");
+  res.end();
 });
 
 
