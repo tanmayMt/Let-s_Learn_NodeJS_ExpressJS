@@ -8,6 +8,7 @@ router.get("/register", (req, res) => {
     "messege": "register page",
     statusCode : 200
   });
+  res.redirect("/login");
 });
 
 router.get("/login", (req, res) => {
