@@ -8,7 +8,9 @@ router.get("/register", (req, res) => {
   //   "messege": "register page",
   //   statusCode : 200
   // });
-  res.redirect("/login");
+  res.redirect("/api/user/login");
+  // res.statusCode = 200;
+  // res.sendFile(__dirname+"/views/register.html");
 });
 
 router.get("/login", (req, res) => {
