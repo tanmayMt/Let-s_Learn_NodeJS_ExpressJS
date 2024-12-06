@@ -7,7 +7,8 @@ app.use("/api/user",userRouter);
 // app.use("/api/admin",adminRouter);
 
 app.get("/",(req,res)=>{
-  res.send("<h1>This is get request at Home route</h1>");
+  //res.send("<h1>This is get request at Home route</h1>");
+  res.sendFile(__dirname+"/views/home.html")
 });
 
 app.use((req, res) => { //For Unknown url which is not mention

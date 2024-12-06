@@ -8,13 +8,16 @@ router.get("/register", (req, res) => {
   //   "messege": "register page",
   //   statusCode : 200
   // });
-  res.redirect("/api/user/login");
-  // res.statusCode = 200;
-  // res.sendFile(__dirname+"/views/register.html");
+  // res.redirect("/api/user/login");
+  res.statusCode = 200;
+  console.log(__dirname);
+  //res.sendFile(__dirname+"/views/register.html");
+  res.sendFile("G:\\4.Web Development\\Node\\8.express\\views\\register.html");
 });
 
 router.get("/login", (req, res) => {
-  res.send("<h1>I am a get request at login route</h1>");
+  //res.send("<h1>I am a get request at login route</h1>");
+  res.sendFile("G:\\4.Web Development\\Node\\8.express\\views\\login.html");
 });
 
 
