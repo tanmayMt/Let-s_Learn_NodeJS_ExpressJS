@@ -21,6 +21,7 @@ router.get("/login", (req, res) => {
   res.cookie("name", "rabeya");
   res.cookie("age", "30");
   //res.clearCookie("name");
+  res.append("id", "9303400");
   res.end();
 });
 
