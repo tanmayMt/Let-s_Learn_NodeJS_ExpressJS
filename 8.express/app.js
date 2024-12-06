@@ -4,7 +4,7 @@ const userRouter = require("./routes/users.route")
 const adminRouter = require("./routes/admin.route");
 
 app.use("/api/user",userRouter);
-app.use("/api/admin",adminRouter);
+// app.use("/api/admin",adminRouter);
 
 app.post("/",(req,res)=>{
   res.send("<h1>This is get request at Home route</h1>");

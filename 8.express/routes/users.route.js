@@ -2,8 +2,12 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/register", (req, res) => {
-  
-  // res.send("<h1>I am a get request at register route</h1>");
+  res.status(200).json({
+    "name": "Tanmay Roy",
+    "email": "tanmoy435@gmail.com",
+    "messege": "register page",
+    statusCode : 200
+  });
 });
 
 router.get("/login", (req, res) => {
