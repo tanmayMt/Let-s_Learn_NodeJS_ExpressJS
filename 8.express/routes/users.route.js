@@ -20,6 +20,7 @@ router.get("/login", (req, res) => {
   res.sendFile("G:\\4.Web Development\\Node\\8.express\\views\\login.html");
   res.cookie("name", "rabeya");
   res.cookie("age", "30");
+  //res.clearCookie("name");
   res.end();
 });
 
