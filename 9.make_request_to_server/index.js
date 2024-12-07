@@ -24,7 +24,7 @@ app.get("/",(req,res)=>{
   res.send(`Student id is : ${id}    &   Student name is : ${name}`);
 })
 
-//Make Request with JSON data in request body
+//Make Request with JSON data in request body 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
