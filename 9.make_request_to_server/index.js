@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = 3001;
-
+const bodyParser = require("body-parser");
 //Request with Query Parameters
 // app.get("/", (req, res) => {
 //   //const id = req.query.id;              //http://localhost:3001/?id=101
@@ -22,6 +22,16 @@ app.get("/",(req,res)=>{
   const id = req.header("id");
   const name = req.header("name");
   res.send(`Student id is : ${id}    &   Student name is : ${name}`);
+})
+
+//Make Request with JSON data in request body
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.post("/user",(req,res)=>{
+  const name = req.body.name;
+  const age = req.body.age;
+  res.send(`Student name is : ${name}    &   Student age is : ${age}`);
 })
 
 app.listen(PORT, () => {
