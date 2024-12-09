@@ -13,6 +13,11 @@ app.get("/product/:id([0-9]{3})",(req,res)=>{ //only 3 digit id is acceptable
     res.send(`<h3>Product ID: ${id}</h3>`);
 })
 
+app.get("/product/:title([a-zA-Z]+)",(req,res)=>{ //only 3 digit id is acceptable
+    const title = req.params.title;
+    res.send(`<h3>Product Title: ${title}</h3>`);
+})
+
 app.use((req,res)=>{
     res.status(404).send({
         message:"not a valid route",
