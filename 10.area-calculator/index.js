@@ -11,18 +11,15 @@ app.get("/",(req,res)=>{
 })
 
 app.get("/circle",(req,res)=>{
-    console.log("get circle");
     res.sendFile(__dirname+"/circle.html");
-})
-
-app.get("/triangle",(req,res)=>{
-    res.sendFile(__dirname+"/triangle.html");
 })
 app.post("/circle",(req,res)=>{
     const radius = req.body.radius;
     const area1 = Math.PI*radius*radius;
     res.send(`<h2>Area of Circle: ${area1}</h2>`)
-    console.log("post circle");
+})
+app.get("/triangle",(req,res)=>{
+    res.sendFile(__dirname+"/triangle.html");
 })
 app.post("/triangle",(req,res)=>{
     const base = req.body.base;
