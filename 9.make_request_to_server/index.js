@@ -34,6 +34,18 @@ app.post("/user",(req,res)=>{
   res.send(`Student name is : ${name}    &   Student age is : ${age}`);
 })
 
+//Send and recive form data
+app.get("/register",(req,res)=>{
+  res.sendFile(__dirname+"/register.html")
+})
+app.post("/register",(req,res)=>{
+  //res.send("Hi")
+  const fullName = req.body.fullName;
+  const age = req.body.age;
+  res.send(`<h2>Your name is ${fullName} and age is ${age}</h2>`);
+})
+
+
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
