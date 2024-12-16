@@ -2,8 +2,24 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
+app.use(express.urlencoded({ extended: true })); //used to parse incoming requests with URL-encoded payloads
+
+
+
+const htmlForm = `
+    <form method="POST" action="/users">
+      <input type="text" name="name" placeholder="Enter Name" /><br>
+      <input type="number" name="age" placeholder="Enter age" /><br>
+      <button type="submit">save user</button>
+    </form>
+`
+
 app.get("/users",(req,res)=>{
-  res.send("Hello Users");
+  res.send(htmlForm);
+})
+
+app.post("/users",(req,res)=>{
+  
 })
 
 app.use((req, res, next) => {
