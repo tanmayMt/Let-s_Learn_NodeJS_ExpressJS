@@ -4,7 +4,16 @@ const PORT = 3000;
 
 app.use(express.urlencoded({ extended: true })); //used to parse incoming requests with URL-encoded payloads
 
-
+const users =[
+  {
+    name: "Tanmay Roy",
+    age: 23
+  },
+  {
+    name: "Arohi Sen",
+    age: 27
+  }
+];
 
 const htmlForm = `
     <form method="POST" action="/users">
@@ -19,7 +28,18 @@ app.get("/users",(req,res)=>{
 })
 
 app.post("/users",(req,res)=>{
+  const name = req.body.name;
+  const age = Number(req.body.age);
+  const user = {
+    name,
+    age
+  }
+  users.push(user);
   
+  res.status(201).json({
+    success:true,
+    users
+  })
 })
 
 app.use((req, res, next) => {
