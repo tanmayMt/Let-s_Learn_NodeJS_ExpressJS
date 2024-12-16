@@ -7,12 +7,27 @@ const myMiddleWare = (req, res, next) => {
   next();
 };
 
-app.get("/",myMiddleWare,(req, res) => {
+app.use(myMiddleWare); //Common Middleware in app for all routes
+
+app.get("/",(req, res) => {
   // console.log("I am home. ");
-  res.send(`<div>
-              <h1>I am home route</h1>
-              <h4>Date & Time: ${req.curTime}</h4>
-            </div>`);
+  res.send(`<h1>I am home route</h1>
+            <h4>Date & Time: ${req.curTime}</h4>`
+          );
+  res.end();
+});
+
+app.get("/about", (req, res) => {
+  res.send(`<h1>I am about route</h1>
+            <h4>Date & Time: ${req.curTime}</h4>
+          `);
+  res.end();
+});
+
+app.get("/user", (req, res) => {
+  res.send(`<h1>I am user route</h1>
+            <h4>Date & Time: ${req.curTime}</h4>
+          `);
   res.end();
 });
 
