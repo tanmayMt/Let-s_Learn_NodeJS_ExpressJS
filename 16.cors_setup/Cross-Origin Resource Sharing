@@ -1,0 +1,2 @@
+cors package- Cross-Origin Resource Sharing allow you to make request from one website to another website in the browser, which is normaly prohibited by another browser policy called 
+the Same-Origin Policy(SOP).
