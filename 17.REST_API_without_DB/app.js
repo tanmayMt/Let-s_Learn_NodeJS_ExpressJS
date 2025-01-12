@@ -15,6 +15,7 @@ app.use(bodyparser.json());
 app.get("/",(req,res)=>{
     res.sendFile(__dirname+"/views/index.html");
 });
+//users Routes
 app.use("/users",userRouter);
 
 //Route Not Found
