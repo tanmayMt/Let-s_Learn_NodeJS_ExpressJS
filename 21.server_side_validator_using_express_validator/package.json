@@ -1,0 +1,16 @@
+{
+  "name": "21.server_side_validator_using_express_validator",
+  "version": "1.0.0",
+  "description": "Express-validator ensures incoming request data is validated and sanitized in Express.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "author": "Tanmay Samanta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
