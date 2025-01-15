@@ -1,4 +1,9 @@
-const registerUser = async (req, res) => {
+const express = require("express");
+// const { body } = require("express-validator");
+
+const registerUser = 
+// body("name").trim().notEmpty();
+(req, res) => {
   try {
     const { name, email, password, dob } = req.body;
     const newUser = {
