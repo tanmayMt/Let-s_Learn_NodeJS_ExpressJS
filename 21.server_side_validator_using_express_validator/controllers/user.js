@@ -27,7 +27,7 @@ const loginUser = (req, res) => {
   try {
     const { email, password } = req.body;
 
-    if (email === "tanmoy@gmail.com" && password === "123") {
+    if (email === "tanmoy@gmail.com" && password === "12345") {
       return res.status(200).json({
         message: "user was loggedIn",
       });
