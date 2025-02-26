@@ -1,0 +1,519 @@
+Commits on Jan 27, 2025
+response_status_codes image is added
+
+
+
+on Jan 27
+MongoDB topic is added
+
+
+
+on Jan 27
+Commits on Jan 16, 2025
+Server Side Validator using express validator - Validation Result Modification
+
+
+
+on Jan 16
+Server Side Validator using express validator separation of validation part
+
+
+
+on Jan 16
+Commits on Jan 15, 2025
+Server Side Validator using express validator - for login routes validate email & password
+
+
+
+on Jan 15
+Server Side Validator using express validator - email,password,dob validation with withMessage()
+
+
+
+on Jan 15
+Server Side Validator using express validator - name validation with withMessage()
+
+
+
+on Jan 15
+Server Side Validator using express validator
+
+
+
+on Jan 15
+Server Side Validator using express validator
+
+
+
+on Jan 15
+Commits on Jan 14, 2025
+Server Side Validator using express validator - Basic Setup
+
+
+
+on Jan 14
+chalk npm package
+
+
+
+on Jan 14
+chalk npm package - used to style terminal output with colors, backgrounds, and text decorations
+
+
+
+on Jan 14
+morgan npm package - use to print HTTP requests in console for monitoring and debugging purposes.
+
+
+
+on Jan 14
+Commits on Jan 13, 2025
+Upload Files to Srever - using multer package
+
+
+
+on Jan 13
+Upload Files to Server (Register Form for submitting file)
+
+
+
+on Jan 13
+Upload Files to Srever - (Basic Server Setup & Form from submitting file)
+
+
+
+on Jan 13
+Commits on Jan 12, 2025
+Create REST API Without DB - createUser,updateUser,deleteUser
+
+
+
+on Jan 12
+Commits on Jan 11, 2025
+Create REST API Without DB get users
+
+
+
+on Jan 11
+Commits on Jan 10, 2025
+cors - Cross-Origin Resource Sharing - allow you to make request from one website to another website in the browser
+
+
+
+on Jan 10
+Commits on Dec 16, 2024
+MCV Achitecture - Separate the code of index.js into MVC Structure
+
+
+
+on Dec 16, 2024
+MCV Achitecture - Creating Object & Pushing Form Data
+
+
+
+on Dec 16, 2024
+MCV Achitecture - Creating Form & Data By Posting
+
+
+
+on Dec 16, 2024
+MCV Achitecture - use middleware for not found page(404)
+
+
+
+on Dec 16, 2024
+MCV Achitecture - Create Server & Running it
+
+
+
+on Dec 16, 2024
+MCV Achitecture - Set & Installation
+
+
+
+on Dec 16, 2024
+-
+
+
+
+on Dec 16, 2024
+Type of MiddleWare
+
+
+
+on Dec 16, 2024
+Express Stactic MiddleWare - app.use(express.static('public'));
+
+
+
+on Dec 16, 2024
+Common or Single MiddleWare for all/multiple routes
+
+
+
+on Dec 16, 2024
+Modification of reqest in MiddleWare Function
+
+
+
+on Dec 16, 2024
+MiddleWare Function (calling next())
+
+
+
+on Dec 16, 2024
+-
+
+
+
+on Dec 16, 2024
+Commits on Dec 15, 2024
+MiddleWare Function (Without calling next())
+
+
+
+on Dec 15, 2024
+dotenv(.env) config file
+
+
+
+on Dec 15, 2024
+dotenv(.env) config file
+
+
+
+on Dec 15, 2024
+Commits on Dec 15, 2024
+regular expression in url
+
+
+
+on Dec 15, 2024
+Commits on Dec 9, 2024
+Regular Expression -> with title param
+
+
+
+on Dec 9, 2024
+Regular Expression -> with id param
+
+
+
+on Dec 9, 2024
+Area Calculator
+
+
+
+on Dec 9, 2024
+Area Calculator
+
+
+
+on Dec 9, 2024
+Area Calculator
+
+
+
+on Dec 9, 2024
+Send and recive form data
+
+
+
+on Dec 9, 2024
+Commits on Dec 7, 2024
+Make Request with JSON data or Form data in request data
+
+
+
+on Dec 7, 2024
+Make Request with JSON data in request data
+
+
+
+on Dec 7, 2024
+Make Request with Header ( req.header('key') )
+
+
+
+on Dec 7, 2024
+Make Request using route Parameter(http://localhost:3001/userId/101)
+
+
+
+on Dec 7, 2024
+Some Image are added
+
+
+
+on Dec 7, 2024
+Make Request with Query Parameter with multiple value distructuring
+
+
+
+on Dec 7, 2024
+Make Request with Query Parameter with multiple value
+
+
+
+on Dec 7, 2024
+Make Request with Query Parameter
+
+
+
+on Dec 7, 2024
+Response Header - res.append(key,value)
+
+
+
+on Dec 7, 2024
+Commits on Dec 6, 2024
+Response Header - res.append(key,value)
+
+
+
+on Dec 6, 2024
+Response with cookie and clearCookie
+
+
+
+on Dec 6, 2024
+Response with cookie
+
+
+
+on Dec 6, 2024
+Sent HTML File as Response
+
+
+
+on Dec 6, 2024
+Response redirect another page
+
+
+
+on Dec 6, 2024
+Response redirect another page
+
+
+
+on Dec 6, 2024
+Sending json data & status code as response
+
+
+
+on Dec 6, 2024
+Sending json data & status code as response
+
+
+
+on Dec 6, 2024
+Create Routing expressjs Router AdminRoute
+
+
+
+on Dec 6, 2024
+Create Routing expressjs Router
+
+
+
+on Dec 6, 2024
+Create Routing expressjs Router
+
+
+
+on Dec 6, 2024
+routing
+
+
+
+on Dec 6, 2024
+a image is added
+
+
+
+on Dec 6, 2024
+express get,post,put,delete request
+
+
+
+on Dec 6, 2024
+express get request
+
+
+
+on Dec 6, 2024
+Create node server with express
+
+
+
+on Dec 6, 2024
+Create node server with express
+
+
+
+on Dec 6, 2024
+Create node server Heroku
+
+
+
+on Dec 6, 2024
+Create node server Heroku
+
+
+
+on Dec 6, 2024
+Commits on Dec 5, 2024
+Create node server
+
+
+
+on Dec 5, 2024
+Commits on Dec 4, 2024
+Response with html pages for requested url (else if)
+
+
+
+on Dec 4, 2024
+Response with html pages for requested url (else if)
+
+
+
+on Dec 4, 2024
+Response with html pages for requested url (else if)
+
+
+
+on Dec 4, 2024
+Response with html page for requested url
+
+
+
+on Dec 4, 2024
+Response with html page for requested url
+
+
+
+on Dec 4, 2024
+How to get requested url req.url
+
+
+
+on Dec 4, 2024
+run server with nodemon and with npm start
+
+
+
+on Dec 4, 2024
+Create Server
+
+
+
+on Dec 4, 2024
+Commits on Dec 3, 2024
+Extrenal Module - npm(Node Package Manager) movies-names
+
+
+
+on Dec 3, 2024
+Extrenal Module - npm(Node Package Manager) movies-names
+
+
+
+on Dec 3, 2024
+Extrenal Module - npm(Node Package Manager) random-fruits-name
+
+
+
+on Dec 3, 2024
+http Module - Create server with response
+
+
+
+on Dec 3, 2024
+http Module - Create server with response
+
+
+
+on Dec 3, 2024
+http Module - Create server with response
+
+
+
+on Dec 3, 2024
+http Module - Create server
+
+
+
+on Dec 3, 2024
+http Module - Create server using NodeJS
+
+
+
+on Dec 3, 2024
+http Module - Create server using NodeJS
+
+
+
+on Dec 3, 2024
+path Module
+
+
+
+on Dec 3, 2024
+os Module
+
+
+
+on Dec 3, 2024
+fs Module - create and write file using synchronous method
+
+
+
+on Dec 3, 2024
+fs Module - Delete File
+
+
+
+on Dec 3, 2024
+fs Module - Rename File
+
+
+
+on Dec 3, 2024
+fs Module - Read File
+
+
+
+on Dec 3, 2024
+fs Module - update file
+
+
+
+on Dec 3, 2024
+fs Module - create and write file
+
+
+
+on Dec 3, 2024
+fs Module - File Handling
+
+
+
+on Dec 3, 2024
+Commits on Dec 2, 2024
+Local Module - exports multiple at a same time .
+
+
+
+on Dec 2, 2024
+Local Module - exports multiple at a same time
+
+
+
+on Dec 2, 2024
+Commits on Dec 1, 2024
+Local Module - exports, require
+
+
+
+on Dec 1, 2024
