@@ -1,0 +1,7 @@
+In Expresjs we can work with both API or SSR(with Template).
+API:
+It is a http interface to interact with our data.And the data is sent using json. In order to send back response we’re going to use res.json() method.
+ 
+
+SSR(with Template):
+In SSR, we will set up templates and send back entire html,css,javascript from server and we’re going to do that using res.render().
